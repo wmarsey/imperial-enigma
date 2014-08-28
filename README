@@ -1,4 +1,8 @@
 Exercise was to create a working virtual enigma machine, to a simplified spec to be found in the pdf in top-level folder. Received A* on assignment.
 
 makefile included. to run:
-./enigma plugboards/IV.pb reflectors/I.rf rotors/II.rot rotors/III.rot < input.txt > output.txt
+./enigma plugboards/IV.pb reflectors/I.rf rotors/II.rot rotors/III.rot
+< input.txt > output.txt
+with an input.txt. otherwise try an over-enthusiastic CLI with:
+./enigma plugboards/IV.pb reflectors/I.rf rotors/II.rot rotors/III.rot
+
